@@ -1,0 +1,10 @@
+C:\Users\Usuario\Downloads\HerramientasDeProgramacion1Ejemplo\ProjectoEjemplo\ProjectoEjemplo\bin\Debug\ProjectoEjemplo.exe.config
+C:\Users\Usuario\Downloads\HerramientasDeProgramacion1Ejemplo\ProjectoEjemplo\ProjectoEjemplo\bin\Debug\ProjectoEjemplo.exe
+C:\Users\Usuario\Downloads\HerramientasDeProgramacion1Ejemplo\ProjectoEjemplo\ProjectoEjemplo\bin\Debug\ProjectoEjemplo.pdb
+C:\Users\Usuario\Downloads\HerramientasDeProgramacion1Ejemplo\ProjectoEjemplo\ProjectoEjemplo\obj\Debug\ProjectoEjemplo.csproj.AssemblyReference.cache
+C:\Users\Usuario\Downloads\HerramientasDeProgramacion1Ejemplo\ProjectoEjemplo\ProjectoEjemplo\obj\Debug\ProjectoEjemplo.Form1.resources
+C:\Users\Usuario\Downloads\HerramientasDeProgramacion1Ejemplo\ProjectoEjemplo\ProjectoEjemplo\obj\Debug\ProjectoEjemplo.Properties.Resources.resources
+C:\Users\Usuario\Downloads\HerramientasDeProgramacion1Ejemplo\ProjectoEjemplo\ProjectoEjemplo\obj\Debug\ProjectoEjemplo.csproj.GenerateResource.cache
+C:\Users\Usuario\Downloads\HerramientasDeProgramacion1Ejemplo\ProjectoEjemplo\ProjectoEjemplo\obj\Debug\ProjectoEjemplo.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\HerramientasDeProgramacion1Ejemplo\ProjectoEjemplo\ProjectoEjemplo\obj\Debug\ProjectoEjemplo.exe
+C:\Users\Usuario\Downloads\HerramientasDeProgramacion1Ejemplo\ProjectoEjemplo\ProjectoEjemplo\obj\Debug\ProjectoEjemplo.pdb
