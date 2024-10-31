@@ -3,19 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Downloads\\HerramientasDeProgramacion1Ejemplo\\ProjectoEjemplo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{608F55E9-810A-4FE2-8048-E10A00C88849}|ProjectoEjemplo\\ProjectoEjemplo.csproj|c:\\users\\usuario\\downloads\\herramientasdeprogramacion1ejemplo\\projectoejemplo\\projectoejemplo\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608F55E9-810A-4FE2-8048-E10A00C88849}|ProjectoEjemplo\\ProjectoEjemplo.csproj|solutionrelative:projectoejemplo\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{608F55E9-810A-4FE2-8048-E10A00C88849}|ProjectoEjemplo\\ProjectoEjemplo.csproj|C:\\Users\\Usuario\\Downloads\\HerramientasDeProgramacion1Ejemplo\\ProjectoEjemplo\\projectoejemplo\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608F55E9-810A-4FE2-8048-E10A00C88849}|ProjectoEjemplo\\ProjectoEjemplo.csproj|solutionrelative:projectoejemplo\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{608F55E9-810A-4FE2-8048-E10A00C88849}|ProjectoEjemplo\\ProjectoEjemplo.csproj|C:\\Users\\Usuario\\Downloads\\HerramientasDeProgramacion1Ejemplo\\ProjectoEjemplo\\projectoejemplo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608F55E9-810A-4FE2-8048-E10A00C88849}|ProjectoEjemplo\\ProjectoEjemplo.csproj|solutionrelative:projectoejemplo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{608F55E9-810A-4FE2-8048-E10A00C88849}|ProjectoEjemplo\\ProjectoEjemplo.csproj|c:\\users\\usuario\\downloads\\herramientasdeprogramacion1ejemplo\\projectoejemplo\\projectoejemplo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{608F55E9-810A-4FE2-8048-E10A00C88849}|ProjectoEjemplo\\ProjectoEjemplo.csproj|solutionrelative:projectoejemplo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ProjectoEjemplo||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{608F55E9-810A-4FE2-8048-E10A00C88849}|ProjectoEjemplo\\ProjectoEjemplo.csproj|c:\\users\\usuario\\downloads\\herramientasdeprogramacion1ejemplo\\projectoejemplo\\projectoejemplo\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{608F55E9-810A-4FE2-8048-E10A00C88849}|ProjectoEjemplo\\ProjectoEjemplo.csproj|solutionrelative:projectoejemplo\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{608F55E9-810A-4FE2-8048-E10A00C88849}|ProjectoEjemplo\\ProjectoEjemplo.csproj|c:\\users\\usuario\\downloads\\herramientasdeprogramacion1ejemplo\\projectoejemplo\\projectoejemplo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{608F55E9-810A-4FE2-8048-E10A00C88849}|ProjectoEjemplo\\ProjectoEjemplo.csproj|solutionrelative:projectoejemplo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{608F55E9-810A-4FE2-8048-E10A00C88849}|ProjectoEjemplo\\ProjectoEjemplo.csproj|c:\\users\\usuario\\downloads\\herramientasdeprogramacion1ejemplo\\projectoejemplo\\projectoejemplo\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
@@ -28,37 +32,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\HerramientasDeProgramacion1Ejemplo\\ProjectoEjemplo\\ProjectoEjemplo\\Controller.cs",
+              "RelativeDocumentMoniker": "ProjectoEjemplo\\Controller.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\HerramientasDeProgramacion1Ejemplo\\ProjectoEjemplo\\ProjectoEjemplo\\Controller.cs",
+              "RelativeToolTip": "ProjectoEjemplo\\Controller.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAwwLAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T23:27:41.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\HerramientasDeProgramacion1Ejemplo\\ProjectoEjemplo\\ProjectoEjemplo\\Form1.cs",
               "RelativeDocumentMoniker": "ProjectoEjemplo\\Form1.cs",
               "ToolTip": "C:\\Users\\Usuario\\Downloads\\HerramientasDeProgramacion1Ejemplo\\ProjectoEjemplo\\ProjectoEjemplo\\Form1.cs",
               "RelativeToolTip": "ProjectoEjemplo\\Form1.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAewAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T00:07:49.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "model.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\HerramientasDeProgramacion1Ejemplo\\ProjectoEjemplo\\ProjectoEjemplo\\model.cs",
-              "RelativeDocumentMoniker": "ProjectoEjemplo\\model.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Downloads\\HerramientasDeProgramacion1Ejemplo\\ProjectoEjemplo\\ProjectoEjemplo\\model.cs",
-              "RelativeToolTip": "ProjectoEjemplo\\model.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAawAoAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Model.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\HerramientasDeProgramacion1Ejemplo\\ProjectoEjemplo\\ProjectoEjemplo\\Model.cs",
+              "RelativeDocumentMoniker": "ProjectoEjemplo\\Model.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\HerramientasDeProgramacion1Ejemplo\\ProjectoEjemplo\\ProjectoEjemplo\\Model.cs",
+              "RelativeToolTip": "ProjectoEjemplo\\Model.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAzwA8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T23:50:37.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ProjectoEjemplo",
               "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\HerramientasDeProgramacion1Ejemplo\\ProjectoEjemplo\\ProjectoEjemplo\\ProjectoEjemplo.csproj",
               "RelativeDocumentMoniker": "ProjectoEjemplo\\ProjectoEjemplo.csproj",
@@ -70,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\HerramientasDeProgramacion1Ejemplo\\ProjectoEjemplo\\ProjectoEjemplo\\Form1.cs",
               "RelativeDocumentMoniker": "ProjectoEjemplo\\Form1.cs",

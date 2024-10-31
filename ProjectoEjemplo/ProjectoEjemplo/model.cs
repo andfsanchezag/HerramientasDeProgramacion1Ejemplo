@@ -11,16 +11,21 @@ namespace ProjectoEjemplo
     {
         private double caja;
         private libro []catalogo;
+        private List<transaccion> transaccionList;
 
-        public tienda(double caja, libro[] catalogo)
+        public tienda(double caja, libro[] catalogo, List<transaccion> transaccionList)
         {
             this.Caja = caja;
             this.Catalogo = catalogo;
+            this.TransaccionList = transaccionList;
             MessageBox.Show("se ha creado la tienda con " + caja + " en la caja");
+            
+            
         }
 
         public double Caja { get => caja; set => caja = value; }
         public libro[] Catalogo { get => catalogo; set => catalogo = value; }
+        public List<transaccion> TransaccionList { get => transaccionList; set => transaccionList = value; }
     }
    public class libro
     {

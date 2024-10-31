@@ -16,7 +16,7 @@ namespace ProjectoEjemplo
         public Form1()
         {
             InitializeComponent();
-            this.tienda = new tienda(1000000.0, new libro[20]);
+            this.tienda = new tienda(1000000.0, new libro[20], new List<transaccion>());
         }
 
         private void button1_Click(object sender, EventArgs e)
