@@ -28,7 +28,7 @@ namespace ProjectoEjemplo
         public libro BuscarPorIsbn(tienda tienda, int iSBN)
         {
             foreach(libro lib in tienda.Catalogo){
-                if (lib.ISBN == iSBN) { 
+                if (lib !=null && lib.ISBN == iSBN) { 
                     return lib;
                 }
             }
@@ -58,7 +58,7 @@ namespace ProjectoEjemplo
         {
             foreach (libro lib in tienda.Catalogo)
             {
-                if (lib.Titulo.ToLower().Equals(titulo.ToLower()))
+                if (lib != null && lib.Titulo.ToLower().Equals(titulo.ToLower()))
                 {
                     return lib;
                 }

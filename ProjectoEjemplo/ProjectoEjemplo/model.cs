@@ -49,6 +49,14 @@ namespace ProjectoEjemplo
         public int Cantidad_actual { get => cantidad_actual; set => cantidad_actual = value; }
         public double Precio_de_venta { get => precio_de_venta; set => precio_de_venta = value; }
         public double Precio_de_compra { get => precio_de_compra; set => precio_de_compra = value; }
+
+        public String ToString() { 
+        return "ISBN: " + ISBN +
+                "\nTitulo: " + Titulo +
+                "\nCantidad actual :" + Cantidad_actual;
+        }
+
+
     }
     public class transaccion
     {
