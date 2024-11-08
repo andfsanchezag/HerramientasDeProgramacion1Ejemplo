@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace ProjectoEjemplo
 {
@@ -19,10 +21,13 @@ namespace ProjectoEjemplo
             for (int i = 0; i < tienda.Catalogo.Length; i++) {
                 if (tienda.Catalogo[i] == null) {
                     tienda.Catalogo[i] = libro;
+                    escribirArchivoCatalogo(tienda);
                     return true;
                 }
             }
+            
             return false;
+
         }
 
         public libro BuscarPorIsbn(tienda tienda, int iSBN)
@@ -176,7 +181,73 @@ namespace ProjectoEjemplo
             return masVendido;
         }
 
+        private void escribirArchivoCatalogo(tienda tienda) {
+            try
+            {
+                StreamWriter sw = new StreamWriter("../../Catalogo.txt");
+                sw.WriteLine("ISBN,TITULO,CANTIDAD,COMPRA,VENTA");
+                foreach (libro lib in tienda.Catalogo)
+                {
+                    if (lib != null)
+                    {
+                        sw.WriteLine(lib.Export());
+                    }
+                }
+                sw.Close();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Exception: " + e.Message);
+            }
+            finally
+            {
+                MessageBox.Show("Executing finally block.");
+            }
+        }
 
+        public void importarCatalogo(tienda tienda) {
+            String line;
+            try
+            {
+                StreamReader sr = new StreamReader("../../Catalogo.txt");
+                line = sr.ReadLine();
+                int pos = 0;
+                while (line != null)
+                {
+                    line = sr.ReadLine();
+                    MessageBox.Show(line);
+                    if (pos < 20 &&line!=null)
+                    {
+                        try
+                        {
+                            string[] textLine = line.Split(',');
+                            int iSBN = int.Parse(textLine[0]);
+                            string titulo = textLine[1];
+                            int cantidad = int.Parse(textLine[2]);
+                            double compra = double.Parse(textLine[3]);
+                            double venta=double.Parse(textLine[4]);
+                            libro lib = new libro(iSBN, titulo, cantidad, venta, compra);
+                            tienda.Catalogo[pos] = lib;
+                            pos++;
+                        }
+                        catch (Exception e) {
+                            MessageBox.Show("error procesando linea " + line);
+                            continue;
+                        }
+                       
+                    }
+                }
+                sr.Close();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Exception: " + e.Message);
+            }
+            finally
+            {
+                MessageBox.Show("Executing finally block.");
+            }
+        }
 
     }
 }

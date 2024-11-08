@@ -17,8 +17,9 @@ namespace ProjectoEjemplo
         public Form1()
         {
             InitializeComponent();
-            this.tienda = new tienda(1000000.0, new libro[3], new List<transaccion>());
+            this.tienda = new tienda(1000000.0, new libro[20], new List<transaccion>());
             this.controller = new Controller();
+            this.controller.importarCatalogo(this.tienda);
         }
 
         private void button1_Click(object sender, EventArgs e)

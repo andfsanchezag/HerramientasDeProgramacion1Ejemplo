@@ -55,6 +55,10 @@ namespace ProjectoEjemplo
                 "\nTitulo: " + Titulo +
                 "\nCantidad actual :" + Cantidad_actual;
         }
+        public String Export() {
+            return this.ISBN + "," + this.Titulo + "," + this.cantidad_actual + "," + this.precio_de_compra + "," + this.precio_de_venta;
+        }
+
 
 
     }
